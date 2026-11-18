@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards {
+    width: 250px;
+    max-width: 100%;
+    border: 3px solid;
+    border-radius: 5%;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+img {
+    display: block;
+    padding: 20px 20px;
+    width: 200px;
+    border-radius: 20%;
+}
+
+h1, p {
+    padding: 0 20px;
+}
+
+#fire {
+    background-color:rgb(231, 151, 97);
+    border-color: red;
+}
+
+#water {
+    background-color:rgb(97, 200, 231);
+    border-color: blue;
+}
+
+#dirt {
+    background-color:rgb(97, 231, 180);
+    border-color: green;
+}
+
+#ult {
+    background: linear-gradient(70deg,orange, red);
+    border-color: rgb(255, 166, 0);
+}
